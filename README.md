@@ -1,2 +1,13 @@
-# setup-arch-linux
-Aqui deixo documentado meus estudos em Arch-Linux, onde saio da instalação até a interface gráfica, percorrendo todos os erros e acertos que tive ao me mudar para esse novo anbiente. 
+# 🐧 Diário da Minha Jornada no Arch Linux
+
+Este repositório foi criado para documentar meus estudos práticos de infraestrutura, sistemas operacionais e administração de sistemas (SysAdmin), registrando toda a minha evolução desde a instalação do **Arch Linux** até a customização do ambiente de desenvolvimento.
+
+---
+
+## 🛠️ Etapa 1: A Instalação 
+Diferente de distribuições que já vêm prontas, a instalação do Arch Linux foi o meu primeiro grande desafio, mas como qualquer outro bom desenvolvedor, fui ler a documentação no proprio site do **Arch-linux** (https://archlinux.org/) .
+* **Montagem do Sistema:** Aprendi sobre particionamento de disco (EFI/GPT, Swap, raiz `/`), montagem de diretórios e a importância do comando `arch-chroot` para entrar no novo sistema antes do primeiro boot.
+* **Kernel e Base:** Instalei manualmente o kernel Linux, firmware de hardware e configurei a rede do zero.
+* **Interface Gráfica (DE):** Optei pelo **KDE Plasma 6**, o que me deu uma base incrível sobre servidores de exibição (Wayland/X11) e gerenciadores de login (**SDDM**).
+
+---
