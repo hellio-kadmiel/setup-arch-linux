@@ -1,6 +1,6 @@
 # 🐧 Diário da Minha Jornada no Arch Linux
 
-Este repositório foi criado para documentar meus estudos práticos de infraestrutura, sistemas operacionais e administração de sistemas (SysAdmin), registrando toda a minha evolução desde a instalação do **Arch Linux** até a customização do ambiente de desenvolvimento.
+Este repositório foi criado com o objetivo de documentar os meus estudos práticos em sistemas operativos, infraestrutura e administração de sistemas (SysAdmin). Aqui registo todo o processo, desde a criação do (boot) até à pós-instalação e análise de hardware.
 
 ---
 
