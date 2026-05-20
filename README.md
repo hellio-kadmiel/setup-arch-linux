@@ -4,10 +4,28 @@ Este repositório foi criado com o objetivo de documentar os meus estudos práti
 
 ---
 
-## 🛠️ Etapa 1: A Instalação 
-Diferente de distribuições que já vêm prontas, a instalação do Arch Linux foi o meu primeiro grande desafio, mas como qualquer outro bom desenvolvedor, fui ler a documentação no proprio site do **Arch-linux** (https://archlinux.org/) .
-* **Montagem do Sistema:** Aprendi sobre particionamento de disco (EFI/GPT, Swap, raiz `/`), montagem de diretórios e a importância do comando `arch-chroot` para entrar no novo sistema antes do primeiro boot.
-* **Kernel e Base:** Instalei manualmente o kernel Linux, firmware de hardware e configurei a rede do zero.
-* **Interface Gráfica (DE):** Optei pelo **KDE Plasma 6**, o que me deu uma base incrível sobre servidores de exibição (Wayland/X11) e gerenciadores de login (**SDDM**).
+## 🛠️ Etapa 1: A Instalação 100% Manual
+### 1. Preparação da Mídia e Boot
+* **Download:** Obtenção da imagem ISO oficial diretamente do site do Arch Linux.
+* **Criação do USB:** Utilização do utilitário **Rufus** para gravar a ISO num pendrive, utilizando a tabela de partições GPT e o modo UEFI.
 
+### 2. Configuração de Rede via Terminal
+O primeiro grande desafio foi estabelecer ligação à Internet sem qualquer interface gráfica, utilizando apenas o terminal:
+* Utilização do utilitário `iwctl` (iwd) para gerir o Wi-Fi do portátil.
+* Comandos executados para pesquisar as redes e efetuar a autenticação:
+  ```bash
+  device list
+  station wlan0 scan
+  station wlan0 get-networks
+  station wlan0 connect "Nome_Da_Rede"
 ---
+  Validação da conectividade através do comando "ping google.com."
+
+### 3.Particionamento e Instalação Base
+Esquema de Partições: Criação manual das partições necessárias utilizando ferramentas como o cfdisk (partição EFI para o boot, partição Swap para gestão de memória e partição Raiz / para o sistema).
+
+ * Formatação: Aplicação dos sistemas de ficheiros adequados (FAT32 para o EFI e EXT4 para o sistema principal).
+
+* Instalação do Core: Utilização do comando pacstrap para instalar o sistema base, o kernel Linux e os firmwares necessários (linux-firmware).
+
+* Configuração Interna (Chroot): Entrada no sistema instalado através de arch-chroot para configurar o fuso horário, idioma (locale), nome da máquina (hostname) e definição das palavras-passe.
