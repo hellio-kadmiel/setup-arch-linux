@@ -80,4 +80,4 @@ Senha do root:
     reboot
 
 ## Resultado
-Sistema base instalado com sucesso.
+Sistema base instalado com sucesso. (Assim eu esperava)
