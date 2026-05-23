@@ -25,9 +25,8 @@ Aqui você encontrará:
     │   ├── hardware/              # Configurações do Acer Nitro V15
     │   └── pos-instalacao/        # Pós-instalação (KDE, drivers, apps)
     ├── 📁 erros/                  # Erros e soluções
-    │   ├── rede/                  # Wi-Fi, DNS, etc.
-    │   ├── hardware/              # Som, teclado, fans, etc.
-    │   └── software/              # Aplicativos, codecs, etc.
+    │   ├── 📁 instalacao/         # Wi-Fi, DNS, etc.
+    │   └── 📁 nvidia /            # Aplicativos, codecs, etc.
     ├── 📁 scripts/                # Scripts de automação (em breve)
     ├── 📁 configs/                # Backups de arquivos .conf
     └── 📁 assets/                 # Imagens, screenshots (futuro)
@@ -76,7 +75,7 @@ Aqui você encontrará:
 | Tela                | 15.6" FHD 144Hz                   | ✅ Fluido (compositor KDE) |
 | Wi-Fi               | iwd / NetworkManager              | ✅ Funcionando             |
 | Som                 | PipeWire                          | ✅ Funcionando             |
-| Teclado RGB         | openrgb (parcial)                 | ⚠️ Ajuste manual          |
+| Teclado RGB         | openrgb (parcial)                 | ⚠️ Ajuste manual           |
 
 Para mais detalhes, veja: [`docs/hardware/acer-nitro-v15.md`](docs/hardware/acer-nitro-v15.md)
 
