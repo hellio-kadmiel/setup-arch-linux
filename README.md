@@ -69,7 +69,7 @@ Aqui você encontrará:
 | Componente          | Modelo                            | Status                     |
 |---------------------|-----------------------------------|----------------------------|
 | Processador         | Intel Core i5-13420H (13ª gen)    | ✅ Funcionando             |
-| Placa de vídeo      | NVIDIA GeForce( 6GB)              | ✅ Driver proprietário     |
+| Placa de vídeo      | NVIDIA GeForce (6GB)              | ✅ Driver proprietário     |
 | Memória RAM         | 8GB DDR5 (expansível)             | ⚠️ Gargalo para VMs/Docker |
 | Armazenamento       | 512GB SSD NVMe                    | ✅ Leve e rápido           |
 | Tela                | 15.6" FHD 144Hz                   | ✅ Fluido (compositor KDE) |
@@ -115,7 +115,7 @@ Para mais detalhes, veja: [`docs/hardware/acer-nitro-v15.md`](docs/hardware/acer
 
 ---
 
-## 📌 Próximos Passos (roadmap)
+## 📌 Próximos Passos que pretendo fazer
 
 - [ ] Documentar a configuração completa do **KDE Plasma** (tema, widgets, atalhos)
 - [ ] Adicionar script de pós-instalação automatizado (pacotes, configurações)
@@ -129,6 +129,7 @@ Para mais detalhes, veja: [`docs/hardware/acer-nitro-v15.md`](docs/hardware/acer
 
 Sugestões, correções ou melhorias são muito bem-vindas!  
 Abra uma [issue](https://github.com/hellio-kadmiel/setup-arch-linux/issues) ou envie um pull request.
+Lembrando que segui o tutorial em video do Canal DIO Linux.
 
 ---
 
@@ -140,4 +141,4 @@ MIT - Sinta-se livre para usar, adaptar e compartilhar.
 
 ⭐ Se este repositório te ajudou de alguma forma, considere dar uma estrela e falar comigo qualquer dúvida!
 
-**Feito com auxilio do canal DIO Linux no Youtube e ☕ durante a jornada no Arch Linux.**
+**Feito com auxilio do canal DIO Linux no Youtube e ☕ durante a jornada no Arch Linux.**
