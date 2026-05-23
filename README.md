@@ -1,4 +1,4 @@
-# 🐧 Arch Linux - Setup e Documentação do Acer Nitro V15
+# 🐧 Arch Linux - Setup e Documentação
 
 [![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)](https://archlinux.org/)
 [![Acer](https://img.shields.io/badge/Acer-83B81A?style=for-the-badge&logo=acer&logoColor=white)](https://www.acer.com/)
